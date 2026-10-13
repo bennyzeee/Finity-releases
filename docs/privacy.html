@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vyneo privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fff; --fg:#1b1730; --dim:#5d5875; --line:#e3e0ee; --accent:#6d4ff0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f0c1d; --fg:#ece9f7; --dim:#a29cc0; --line:#2a2545; --accent:#9b84ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:2rem 0 .4rem; padding-top:1rem; border-top:1px solid var(--line); }
+  p, li { color:var(--fg); }
+  .dim { color:var(--dim); }
+  a { color:var(--accent); }
+  ul { padding-left:1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vyneo privacy policy</h1>
+  <p class="dim">Last updated: October 2026</p>
+
+  <p>Vyneo is a media player for <a href="https://jellyfin.org">Jellyfin</a> servers, with optional support for Jellyseerr.
+  It is an independent app by bennyzee, available for Android phones, tablets and Android TV, and for Windows.
+  This page explains what the app does with your information. The short version: <strong>the developer collects nothing</strong>.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. Vyneo has no accounts with us, no analytics, no advertising, no tracking and no crash reporting that leaves your device.
+  We run no servers that the app talks to, and we never receive your data.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>The address of your server, and the sign-in token your server gave the app.</li>
+    <li>Your settings and the choices you make in the app.</li>
+    <li>Titles you chose to download for offline viewing, and their artwork.</li>
+    <li>On Windows, a small error log kept on the device for troubleshooting. It is never uploaded.</li>
+  </ul>
+  <p>Signing out removes the sign-in token. Uninstalling the app removes everything the app stored. The Android app opts out of device backups.</p>
+
+  <h2>What the app sends, and to whom</h2>
+  <ul>
+    <li><strong>Your own Jellyfin server</strong> (and your Jellyseerr server, if you add one): your sign-in, your library requests, playback progress and watched state, and any media requests you make. That server is run by you or by someone you chose. Its operator's privacy practices apply to that data, not ours.</li>
+    <li><strong>Artwork from The Movie Database (TMDB)</strong>, when you browse Discover through Jellyseerr: the app loads poster and backdrop pictures from TMDB's image servers, which see the connection's network address, as with any web image.</li>
+    <li><strong>GitHub</strong>: the app picture and the supporter list are fetched from this project's public GitHub page, and beta builds check the project's releases for a newer version. GitHub sees the connection's network address.</li>
+    <li><strong>YouTube</strong>: only if you open a trailer link, which opens in YouTube.</li>
+    <li><strong>Chromecast / Google Cast</strong>: if you cast, the address of the video on your server is handed to the Cast device you pick, through Google Play services.</li>
+    <li><strong>Discord (Windows only, off by default)</strong>: if you switch on "Show what I'm watching", the title being played is shown on your Discord profile through the Discord app on your computer.</li>
+  </ul>
+
+  <h2>Permissions on Android</h2>
+  <ul>
+    <li><strong>Internet and network state</strong>: to reach your server.</li>
+    <li><strong>Notifications</strong>: to show download progress.</li>
+    <li><strong>Foreground service and wake lock</strong>: to keep downloads and playback running with the screen off.</li>
+    <li><strong>Android TV home screen</strong>: to show a "Play next" row for titles you have started.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Vyneo is not aimed at children, and does not knowingly collect information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published at this address with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:bennyzee.dev@gmail.com">bennyzee.dev@gmail.com</a>, or open an issue at
+  <a href="https://github.com/bennyzeee/Vyneo">github.com/bennyzeee/Vyneo</a>.</p>
+</main>
+</body>
+</html>
